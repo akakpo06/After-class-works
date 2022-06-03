@@ -1,0 +1,433 @@
+@font-face {
+    font-family: "Grand-Hotel";
+    src: url(/Assets/Fonts-Style/Grand-hotel/GrandHotel-Regular.ttf);
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(/Assets/Fonts-Style/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: "montserrat-bold";
+    src: url(/Assets/Fonts-Style/Montserrat/static/Montserrat-Bold.ttf);
+}
+li{
+    cursor: pointer;
+}
+.montserrat{
+    font-family: "montserrat";
+}
+button{
+    background-color: #ffc200;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+    font-family: "montserrat-bold";
+}
+html,
+body {
+    margin: 0px;
+}
+header{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    height: 955px;
+}
+.header-left-container{
+    width: 40%;
+    position: relative;
+}
+.logo-container{
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.logo-container img{
+    width: 100%;
+}
+.welcome-image-container{
+    width: 100%;
+    height: 100%;
+}
+.welcome-image-container img{
+    width: 100%;
+    height: 100%;
+}
+.header-right-container{
+    background-color: #303030;
+    position: relative;
+    width: 60%;
+    display: flex;
+    color: white;
+}
+.effect-image-container{
+    position: absolute;
+    left: -18%;
+    top: -20%;
+    height: 120%;
+    width: 60%;
+}
+.effect-image-container img {
+    width: 80%;
+    height: 100%;
+}
+.menu-welcome-text-container{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.menu-container{
+    margin-top: 40px;
+    width: 95%;
+}
+ header menu{
+    font-size: 2.1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+}
+.welcome-text-container{
+    width: 100%;
+    margin: 10% 5%;
+}
+.header-title{
+    font-family: "Grand-Hotel";
+    font-size: 9.5rem;
+    margin-bottom: 1%;
+    color: #ffc200;
+}
+.header-text{
+    width: 90%;
+    font-size: 2.7rem;
+}.header-button-container{
+    margin-top: 5%;
+    width: 50%;
+}
+.header-button-container button{
+    width: 50%;
+    height: 60px;
+    font-size: 1.5rem;
+}
+.circle-effect-image-container{
+    position: absolute;
+    left: -8%;
+    top: 12%;
+}
+.circle-effect-image-container img{
+    width: 115%;
+    height: 800px;
+}
+section {
+    width: 100%;
+}
+.best-sellers-top{
+    margin-top: 5%;
+    text-align: center;
+}
+.second-level-title{
+    font-family: "Grand-Hotel";
+    font-size: 6rem;
+    color: #333333;
+}
+.best-sellers-text span{
+    text-align: center;
+    color: #333333;
+    display: inline-block;
+    font-size: 2.1rem;
+    width: 62%;
+}
+.best-seller-dishes{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.best-seller-dish-image-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 7%;
+}
+.best-seller-dish-image-container img {
+    width: 100%;
+}
+.bestseller-dish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.best-seller-dish-title{
+    font-family: "Grand-Hotel";
+    font-size: 3rem;
+    color: #333333;
+}
+.best-seller-dish-text{
+    color: #333333;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 52%;
+}
+.Statistics-presentations-container{
+    overflow: hidden;
+    position: relative;
+    padding: 4% 0%;
+    margin-bottom: 10%;
+}
+.top-presentation-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 7%;
+}
+.bottom-presentation-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 7%;
+}
+.presentation-image-container{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.presentation-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-family: "Grand-Hotel";
+    font-size: 8rem;
+    color: #ffc200;
+    height: 120px;
+    margin-bottom: 6%;
+}
+.pres-text{
+    color: white;
+    font-size: 2.3rem;
+    margin: 10% 0%;
+}
+.pres-text span {
+    display: inline-block;
+    width: 110%;
+    height: 150px;
+}
+.presentation-text-button-container{
+    width: 40%;
+    height: 100%;
+}
+.presentation-button-container button{
+    width: 65%;
+    height: 75px;
+    font-size: 2.2rem;
+}
+.statistics-top-backgroud-image-container{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 1%;
+    left: -5%;
+}
+.statistics-bottom-backgroud-image-container{
+    position: absolute;
+    transform: rotate(180deg);
+    z-index: -1;
+    width: 100%;
+    bottom: 0.5%;
+    right: -5%;
+}
+.statistics-top-backgroud-image-container img,
+.statistics-bottom-backgroud-image-container img{
+    width: 120%;
+}
+.statistics-circle-effect-container{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.statistics-circle-effect-container img {
+    width: 95%;
+    height: 900px;
+}
+.statistics-container{
+    text-align: center;
+    background-color: #303030;
+    margin: 10% 0%;
+}
+.statistics-text{
+    font-size: 2rem;
+    margin-bottom: 5%;
+    color: white;
+}
+.statistics-text span{
+    display: inline-block;
+    width: 55%;
+}
+.statistics-infos-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 13%;
+}
+.statistics-info{
+    width: 250px;
+    height: 250px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statistics-value{
+    font-family: "montserrat-bold";
+    font-weight: bolder;
+    color: #ffc200;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.statistics-name-container{
+    font-family: "montserrat-bold";
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+.lenora-field-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 1000px;
+    background-color: rgba(255, 196, 0 ,0.8);
+}
+.lenora-background-image-container{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.lenora-background-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.lenora-fields-text span{
+    color: #333333;
+    display: inline-block;
+    width: 60%;
+    font-size: 3rem;
+}
+.suscribe-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 900px;
+    background-color: rgba(244, 244, 244 , 0.2);
+}
+.suscribe-background-image{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    right: 5%;
+    z-index: -1;
+}
+.suscribe-background-image img{
+    width: 100%;
+    height: 100%;
+}
+.suscribe-text span{
+    display: inline-block;
+    width: 65%;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+.suscribe-form-container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 1000px;
+    display: flex;
+    box-shadow: #ededed 5px 5px 50px 50px;
+}
+label{
+    width: 80%;
+}
+.suscribe-form-container input{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding-left: 5%;
+}
+.suscribe-form-container button{
+    width: 20%;
+    margin-left: 4.2%;
+    font-size: 1.5rem;
+}
+footer{
+    margin-top: 5%;
+    background-color: #303030;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 8%;
+    text-align: left;
+}
+footer menu{
+    list-style: none;
+    padding: 0px;
+}
+.footer-title{
+    font-size: 2.5rem;
+    font-family: "montserrat-bold";
+}
+.closure-container,
+.infos-container{
+    width: 50%;
+}
+.closure-container .footer-text span{
+    font-size: 2rem;
+    display: inline-block;
+    width: 65%;
+    margin: 5% 0%;
+}
+.social-medias-container{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+.social-media-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.social-media-container img{
+    width: 100%;
+}
+.infos-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    font-size: 2rem;
+}
+.footer-text li {
+    display: inline-block;
+    margin-bottom: 5%;
+    width: 125%;
+}
+.other-container li{
+    margin-bottom: 12%;
+}
