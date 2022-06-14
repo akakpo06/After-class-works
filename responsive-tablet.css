@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1000px) {
+    header{
+        width: 100%;
+        height: 500px;
+    }
+    .logo-container{
+        width: 120px;
+        top: 20px;
+        left: 20px;
+    }
+    header menu{
+        font-size: 1rem;
+    }
+    .welcome-text-container{
+        margin: 10% 0% 0% 10%;
+        width: 98%;
+    }
+    .header-title{
+        font-size: 5rem;
+    }
+    .header-text{
+        font-size: 1.4rem;
+    }
+    .circle-effect-image-container img{
+        margin-top: 1%;
+        width: 95%;
+        height: 400px;
+    }
+    .header-button-container button{
+        width: 55%;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    .second-level-title{
+        font-size: 4rem;
+    }
+    .best-sellers-text span{
+        width: 84%;
+        font-size: 1.2rem;
+    }
+    .best-seller-dishes-wrapper{
+        width: 100%;
+        overflow: scroll;
+    }
+    .best-seller-dishes{
+        width: 1850px;
+    }
+    .best-seller-dish-text{
+        width: 55%;
+        font-size: 1rem;
+    }
+    .best-seller-dish-image-container{
+        width: 350px;
+        height: 350px;
+    }
+    .best-seller-dish-title{
+        font-size: 3.5rem;
+    }
+    .top-presentation-container .presentation-text-button-container{
+        margin-top: 5%;
+    }
+    .presentation-image-container{
+        width: 250px;
+        height: 250px;
+    }
+    .title{
+        height: 100%;
+        font-size: 4rem;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .pres-text{
+        font-size: 1.3rem;
+    }
+    .pres-text span{
+        height: 100px;
+    }
+    .presentation-button-container button{
+        width: 80%;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    .statistics-text{
+        font-size: 1.2rem;
+    }
+    .statistics-info{
+        width: 100px;
+        height: 100px;
+    }
+    .statistics-value{
+        font-size: 1.8rem;
+    }
+    .statistics-name-container{
+        font-size: 0.9rem;
+    }
+    .statistics-circle-effect-container img{
+        height: 450px;
+    }
+    .lenora-field-container{
+        height: 500px;
+    }
+    .lenora-fields-text span{
+        font-size: 1.5rem;
+    }
+    .suscribe-container{
+        height: 450px;
+    }
+    .suscribe-text span{
+        font-size: 1.22rem;
+    }
+    form{
+        width: 650px;
+        box-shadow: #ededed 1px 1px 10px 10px;
+    }
+    .suscribe-form-container button{
+        font-size: 1.1rem;
+    }
+    .suscribe-form-container input{
+        font-size: 1.5rem;
+        height: 50px;
+    }
+    footer{
+        padding: 8% 5%;
+    }
+    .footer-title{
+        font-size: 1.5rem;
+    }
+    .closure-container .footer-text span{
+        width: 80%;
+        font-size: 1.25rem;
+    }
+    .social-medias-container{
+        width: 50%;
+        justify-content: space-between;
+    }
+    .social-media-container{
+        width: 30px;
+        height: 30px;
+    }
+    .infos-container{
+        width: 70%;
+        justify-content: space-between;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    .footer-text li{
+        width: 90%;
+    }
+}

@@ -13,6 +13,9 @@
 li{
     cursor: pointer;
 }
+li:hover{
+    transform: scale(1.2);
+}
 .montserrat{
     font-family: "montserrat";
 }
@@ -22,6 +25,9 @@ button{
     border: none;
     cursor: pointer;
     font-family: "montserrat-bold";
+}
+button:hover{
+    transform: scale(1.05);
 }
 html,
 body {
@@ -182,7 +188,7 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5% 7%;
+    padding: 5% 7% 0% 7%;
 }
 .bottom-presentation-container{
     display: flex;
@@ -380,7 +386,7 @@ footer{
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 10% 8%;
+    padding: 13% 8%;
     text-align: left;
 }
 footer menu{
@@ -412,6 +418,9 @@ footer menu{
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+}
+.social-media-container:hover{
+    transform: scale(1.2);
 }
 .social-media-container img{
     width: 100%;
