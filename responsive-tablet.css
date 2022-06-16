@@ -34,16 +34,23 @@
     .second-level-title{
         font-size: 4rem;
     }
+    .best-sellers-container{
+        position: relative;
+    }
     .best-sellers-text span{
         width: 84%;
         font-size: 1.2rem;
     }
+    .dishes-container{
+        align-items: center;
+        display: flex;
+    }
     .best-seller-dishes-wrapper{
         width: 100%;
-        overflow: scroll;
     }
     .best-seller-dishes{
-        width: 1850px;
+        justify-content: center;
+        width: 80%;
     }
     .best-seller-dish-text{
         width: 55%;
@@ -52,6 +59,22 @@
     .best-seller-dish-image-container{
         width: 350px;
         height: 350px;
+    }
+    .arrow-container{
+        position: absolute;
+        top: 40%;
+        z-index: 1;
+        height: 100%;
+        padding: 0% 1%;
+        font-size: 5rem;
+        width: 50px;
+        display: block;
+    }
+    .desktop-only{
+        display: none;
+    }
+    .second{
+        right: 0px;
     }
     .best-seller-dish-title{
         font-size: 3.5rem;

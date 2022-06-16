@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cb8c25bf88.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/responsive-tablet.css">
     <link rel="stylesheet" href="/responsive-mobile.css">
@@ -65,10 +66,16 @@
                     </span>
                 </div>
             </div>
+            <div class="arrow-container left">
+                <span id="left" onclick="moveTo(-1)">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+            </div>
             <div class="best-seller-dishes-wrapper">
-                <div class="best-seller-dishes">
+                <div class="best-seller-dishes" id = "slider">
+                    
                     <div class="bestseller-dish">
-                        <div class="best-seller-dish-image-container">
+                        <div class="best-seller-dish-image-container" id="image-cont">
                             <img src="/Assets/Images/Presentation-plat1.jpg" alt="">
                         </div>
                         <div class="best-seller-dish-title">
@@ -78,29 +85,34 @@
                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
                         </div>
                     </div>
-                    <div class="bestseller-dish">
-                        <div class="best-seller-dish-image-container">
+                    <div class="bestseller-dish desktop-only">
+                        <div class="best-seller-dish-image-container" id="image-cont">
                             <img src="/Assets/Images/Presentation-plat-2.jpg" alt="">
                         </div>
                         <div class="best-seller-dish-title">
                             <span>Title Here</span>
                         </div>
                         <div class="best-seller-dish-text montserrat">
-                            <span>Lorem ipsum dolor si amet, consectetur adipiscing elit</span>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
                         </div>
-                    </div>
-                    <div class="bestseller-dish">
-                        <div class="best-seller-dish-image-container">
+                    </div> 
+                    <div class="bestseller-dish desktop-only">
+                        <div class="best-seller-dish-image-container" id="image-cont">
                             <img src="/Assets/Images/Presentation-plat-3.jpg" alt="">
                         </div>
                         <div class="best-seller-dish-title">
                             <span>Title Here</span>
                         </div>
                         <div class="best-seller-dish-text montserrat">
-                            <span>Lorem ipsum dolor si amet, consectetur adipiscing elit</span>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
                         </div>
                     </div>
                 </div>
+            </div> 
+            <div class="arrow-container second">
+                <span id = "right" onclick="moveTo(1)">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
             </div>
         </section>
         <section class="Statistics-presentations-container">
@@ -292,4 +304,5 @@
         </footer>
     </main>
 </body>
+<script src="/custo.js"></script>
 </html>

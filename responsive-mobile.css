@@ -46,8 +46,11 @@
         width: 100%;
         overflow: scroll;
     }
-    .best-seller-dishes{
-        width: 900px;
+    .left{
+        text-align: right;
+    }
+    .arrow-container{
+        font-size: 2rem;
     }
     .best-seller-dish-text{
         width: 60%;

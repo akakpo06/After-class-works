@@ -146,6 +146,9 @@ section {
     font-size: 2.1rem;
     width: 62%;
 }
+.arrow-container{
+    display: none;
+}
 .best-seller-dishes{
     padding: 5% 10%;
     display: flex;
