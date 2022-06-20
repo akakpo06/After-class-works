@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Grand-Hotel";
-    src: url(./Assets/Fonts-Style/Grand-hotel/GrandHotel-Regular.ttf);
+    src: url(Assets/Fonts-Style/Grand-hotel/GrandHotel-Regular.ttf);
 }
 @font-face {
     font-family: "montserrat";
-    src: url(./Assets/Fonts-Style/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(Assets/Fonts-Style/Montserrat/static/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: "montserrat-bold";
-    src: url(./Assets/Fonts-Style/Montserrat/static/Montserrat-Bold.ttf);
+    src: url(Assets/Fonts-Style/Montserrat/static/Montserrat-Bold.ttf);
 }
 li{
     cursor: pointer;
