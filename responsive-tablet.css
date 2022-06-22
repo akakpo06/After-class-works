@@ -1,7 +1,11 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1700px) {
+    body{
+        max-width: 1000px;
+        margin: auto;
+    }
     header{
         width: 100%;
-        height: 500px;
+        height: 10%;
     }
     .logo-container{
         width: 120px;
@@ -19,17 +23,20 @@
         font-size: 5rem;
     }
     .header-text{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+    }
+    .circle-effect-image-container{
+        width: 100%;
+        height: 85%;
     }
     .circle-effect-image-container img{
         margin-top: 1%;
-        width: 95%;
-        height: 400px;
+        width: 100%;
+        height: 100%;
     }
     .header-button-container button{
-        width: 55%;
+        width: 65%;
         height: 40px;
-        font-size: 1.1rem;
     }
     .second-level-title{
         font-size: 4rem;
@@ -99,9 +106,9 @@
         height: 100px;
     }
     .presentation-button-container button{
-        width: 80%;
+        width: 60%;
         height: 50px;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .statistics-text{
         font-size: 1.2rem;
@@ -116,8 +123,12 @@
     .statistics-name-container{
         font-size: 0.9rem;
     }
+    .statistics-circle-effect-container{
+        width: 85%;
+        height: 35%;
+    }
     .statistics-circle-effect-container img{
-        height: 450px;
+        height: 100%;
     }
     .lenora-field-container{
         height: 500px;
