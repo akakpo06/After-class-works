@@ -1,7 +1,7 @@
 let board = [
-    `/Assets/Images/Presentation-plat1.jpg`,
-    `/Assets/Images/Presentation-plat-2.jpg`,
-    `/Assets/Images/Presentation-plat-3.jpg`
+    `./Assets/Images/Presentation-plat1.jpg`,
+    `./Assets/Images/Presentation-plat-2.jpg`,
+    `./Assets/Images/Presentation-plat-3.jpg`
 ]
 let position = 0
 function moveTo(n) {
